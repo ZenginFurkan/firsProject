@@ -10,7 +10,7 @@ const Sidebar = ({id}) => {
     const dispatch = useDispatch();
     const handleOpenTrash = () => {
         console.log("open trash");
-        dispatch(fetchDeletedTodos({id,is_deleted:true}));
+        dispatch(fetchDeletedTodos({deleted:true}));
     }
 
     const showAll = () => {

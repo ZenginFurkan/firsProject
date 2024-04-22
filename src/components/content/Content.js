@@ -4,7 +4,7 @@ import { FaRegCircle } from "react-icons/fa";
 import { FaCheckCircle } from "react-icons/fa";
 import { useEffect, } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchTodos } from "../../redux/todoSlice/ToDoSlice";
+import { fetchAllTodos, } from "../../redux/todoSlice/ToDoSlice";
 
 function Content() {
 
@@ -12,7 +12,7 @@ function Content() {
     const data = useSelector(state => state.todos.data);
 
     useEffect(() => {
-        dispatch(fetchTodos()).then((res) => {
+        dispatch(fetchAllTodos()).then((res) => {
             console.log(res);
         })
     }, [dispatch]);
@@ -23,10 +23,10 @@ function Content() {
             <Row>
                 {data.map((item, index) => (
                     <Col key={index} sm="12" md='6' xl='4' >
-                        <Card body className={`card-size ${item.is_completed ? "strike-through" : ""}`}>
+                        <Card body className={`card-size ${item.complated ? "strike-through" : ""}`}>
                             <Row>
                                 <Col md='2'>
-                                    {item.is_completed ? <FaCheckCircle size={30} /> : <FaRegCircle size={30} />}
+                                    {item.complated ? <FaCheckCircle size={30} /> : <FaRegCircle size={30} />}
                                 </Col>
                                 <Col md='8'>
                                     <CardTitle tag="h5">
@@ -37,7 +37,7 @@ function Content() {
                                     <DropdownSelect id={item.id} />
                                 </Col>
                             </Row>
-                            <CardText className={`d-flex justify-content-center align-items-center pt-4 ${item.is_completed ? "strike-through" : ""}`}>
+                            <CardText className={`d-flex justify-content-center align-items-center pt-4 ${item.complated ? "strike-through" : ""}`}>
                                 {item.description}
                             </CardText>
                         </Card>

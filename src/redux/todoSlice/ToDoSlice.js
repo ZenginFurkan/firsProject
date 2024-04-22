@@ -5,20 +5,20 @@ import api from "../api"
 export const fetchTodos = createAsyncThunk(
     "todos/fetchTodos",
     async () => {
-        const params = { is_deleted: false };
+        const params = { deleted: false };
         const response = await api.get("/todos", params);
         return response.data;
     }
 );
 
 export const fetchDeletedTodos = createAsyncThunk("todos/fetchDeletedTodos", async () => {
-    const params = { is_deleted: true };
+    const params = { deleted: true };
     const response = await api.get("/todos", params);
     return response.data;
 });
 
 export const fetchAllTodos = createAsyncThunk("todos/fetchAllTodos", async () => {
-    const params = { is_deleted: true };
+    const params = { deleted: false };
     const response = await api.get("/todos", params);
     return response.data;
 });
@@ -29,7 +29,8 @@ export const addTodo = createAsyncThunk("todos/addTodo", async (todo) => {
 });
 
 export const deleteTodo = createAsyncThunk("todos/deleteTodo", async (todos) => {
-    const response = await api.delete(`/todos/${todos.id}`, todos);
+    console.log(todos)
+    const response = await api.patch(`/todos/${todos.id}`, todos);
     return response.data;
 
 });
@@ -51,7 +52,7 @@ const todosSlice = createSlice({
             })
             .addCase(fetchDeletedTodos.fulfilled, (state, action) => {
                 state.status = "succeeded";
-                state.data = action.payload.filter(todo => todo.is_deleted === true);
+                state.data = action.payload.filter(todo => todo.deleted === true);
             })
 
             .addCase(fetchTodos.pending, (state) => {
@@ -79,7 +80,10 @@ const todosSlice = createSlice({
                 state.status = "loading";
             })
             .addCase(deleteTodo.fulfilled, (state, action) => {
-                state.data = state.data.filter((todo) => todo.id !== action.payload);
+                const deletedTodoIndex = state.data.findIndex((todo) => todo.id === action.payload.id);
+                if (deletedTodoIndex !== -1) {
+                    state.data[deletedTodoIndex].deleted = true;
+                }
             })
             .addCase(deleteTodo.rejected, (state, action) => {
                 state.status = "failed";

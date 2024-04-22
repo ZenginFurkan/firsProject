@@ -9,7 +9,7 @@ import {
 import PropTypes from 'prop-types';
 import { HiOutlineDotsHorizontal } from 'react-icons/hi';
 import { useDispatch } from 'react-redux';
-import { deleteTodo, fetchTodos, updateTodo } from '../../redux/todoSlice/ToDoSlice';
+import { deleteTodo, fetchAllTodos, updateTodo } from '../../redux/todoSlice/ToDoSlice';
 
 function DropdownSelect({ direction, id, ...args }) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -17,17 +17,16 @@ function DropdownSelect({ direction, id, ...args }) {
 
   const handleCompleted = () => {
     setDropdownOpen(true);
-    dispatch(updateTodo({ id, is_completed: true }));
+    dispatch(updateTodo({ id, complated: true }));
 
   }
 
   const handleDelete = () => {
     setDropdownOpen(true);
-    dispatch(deleteTodo({ id })).then((res) => {
-      console.log(res);
-      dispatch(fetchTodos());
-    })
-  }
+    dispatch(deleteTodo({id,deleted:true})).then(() => {
+        dispatch(fetchAllTodos());
+    });
+}
 
   const toggle = () => setDropdownOpen((prevState) => !prevState);
 
