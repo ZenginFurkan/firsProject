@@ -5,17 +5,17 @@ import { HiMiniArrowTrendingUp, HiMiniArrowTrendingDown } from "react-icons/hi2"
 import { FaTrashAlt } from "react-icons/fa";
 import { TbTags } from "react-icons/tb";
 import { useDispatch } from 'react-redux';
-import { fetchAllTodos, fetchDeletedTodos } from '../../redux/todoSlice/ToDoSlice';
-const Sidebar = ({id}) => {
+import { fetchAllTodos} from '../../redux/todoSlice/ToDoSlice';
+const Sidebar = () => {
     const dispatch = useDispatch();
     const handleOpenTrash = () => {
         console.log("open trash");
-        dispatch(fetchDeletedTodos({deleted:true}));
+        dispatch(fetchAllTodos({deleted:"true"}));
     }
 
     const showAll = () => {
         console.log("all");
-        dispatch(fetchAllTodos());
+        dispatch(fetchAllTodos({deleted:"false"}));
     }
 
     return (

@@ -17,14 +17,14 @@ function DropdownSelect({ direction, id, ...args }) {
 
   const handleCompleted = () => {
     setDropdownOpen(true);
-    dispatch(updateTodo({ id, complated: true }));
+    dispatch(updateTodo({ id, complated: "true" }));
 
   }
 
   const handleDelete = () => {
     setDropdownOpen(true);
-    dispatch(deleteTodo({id,deleted:true})).then(() => {
-        dispatch(fetchAllTodos());
+    dispatch(deleteTodo({id,deleted:"true"})).then(() => {
+        dispatch(fetchAllTodos({deleted:"false"}));
     });
 }
 
@@ -32,8 +32,8 @@ function DropdownSelect({ direction, id, ...args }) {
 
   return (
     <div className="d-flex">
-      <Dropdown isOpen={dropdownOpen} toggle={toggle} direction={direction} className='btn'>
-        <DropdownToggle ><HiOutlineDotsHorizontal /></DropdownToggle>
+      <Dropdown isOpen={dropdownOpen} toggle={toggle} direction={direction} className='btn btn-transparant drop-btn'>
+        <DropdownToggle className='drop-btn' ><HiOutlineDotsHorizontal /></DropdownToggle>
         <DropdownMenu {...args}>
           <DropdownItem onClick={handleCompleted} >Complated</DropdownItem>
           <DropdownItem onClick={handleDelete} >Delete</DropdownItem>

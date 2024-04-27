@@ -1,12 +1,21 @@
 import React, { useState } from 'react';
-import { Form, FormGroup, Label, Input, Col } from 'reactstrap';
+import { useDispatch } from 'react-redux';
+import { Form, FormGroup, Label, Input, Col, Button } from 'reactstrap';
+import { addTodo, fetchAllTodos } from '../../redux/todoSlice/ToDoSlice';
 
-const TasksForms = () => {
+const TasksForms = ({ toggle }) => {
+    const dispatch = useDispatch();
+
     const [formData, setFormData] = useState({
         title: '',
-        descriptions: '',
+        description: '',
         tags: [],
+        deleted: "false",
+        complated: "false",
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString()
     });
+    
 
     const handleInputChange = (event) => {
         const { name, value } = event.target;
@@ -29,13 +38,25 @@ const TasksForms = () => {
             tags: tags,
         });
     };
+    const handleSave = () => {
+        dispatch(addTodo(formData));
+        dispatch(fetchAllTodos({ deleted: "false" }));
+        saveToLocalStorage(formData);
+        toggle();
+    }
 
     const handleSubmit = (event) => {
         event.preventDefault();
         // Form submission logic, you can access formData here
-        console.log(formData);
+        console.log("Form Data:", formData);
     };
-
+    const saveToLocalStorage = (formData) => {
+        // localStorage.setItem('tasks', JSON.stringify(formData)); // Bu satırı değiştirin
+        let tasks = JSON.parse(localStorage.getItem('tasks')) || []; // Mevcut görevleri alın veya boş bir dizi oluşturun
+        tasks.push(formData); // Yeni görevi ekle
+        localStorage.setItem('tasks', JSON.stringify(tasks)); // Güncellenmiş görev listesini tekrar kaydedin
+    }
+    
     return (
         <Form onSubmit={handleSubmit}>
             <FormGroup row>
@@ -52,14 +73,14 @@ const TasksForms = () => {
                 </Col>
             </FormGroup>
             <FormGroup row>
-                <Label for="descriptions" sm={2}>Descriptions</Label>
+                <Label for="description" sm={2}>description</Label>
                 <Col sm={10}>
                     <Input
                         type="textarea"
-                        name="descriptions"
-                        id="descriptions"
-                        placeholder="Descriptions"
-                        value={formData.descriptions}
+                        name="description"
+                        id="description"
+                        placeholder="description"
+                        value={formData.description}
                         onChange={handleInputChange}
                     />
                 </Col>
@@ -82,6 +103,12 @@ const TasksForms = () => {
                     </Input>
                 </Col>
             </FormGroup>
+            <Button color="primary" onClick={handleSave}>
+                Save
+            </Button>{' '}
+            <Button color="danger" onClick={toggle}>
+                Cancel
+            </Button>
         </Form>
     );
 };

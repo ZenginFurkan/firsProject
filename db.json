@@ -7,8 +7,8 @@
         1
       ],
       "description": "todos objesi içerisinde aşağıdaki alanlar olmalıdır. \n _id (ObjectId), title (String), description (String), complated (Boolean), created_at (Date), updated_at (Date)",
-      "deleted": true,
-      "complated": true,
+      "deleted": "true",
+      "complated": "true",
       "created_at": "2022-08-05T13:15:00Z",
       "updated_at": "2022-08-05T15:30:00Z"
     },
@@ -19,8 +19,8 @@
         1
       ],
       "description": "REST API üzerinde, GET methodu ile todos verileri çekilebilecek. (Front-End Gereksinimleri 7. madde için)",
-      "complated": true,
-      "deleted": false,
+      "complated": "true",
+      "deleted": "true",
       "created_at": "2022-06-05T15:45:00Z",
       "updated_at": "2022-06-05T18:00:00Z"
     },
@@ -31,8 +31,8 @@
         1
       ],
       "description": "REST API üzerinde, POST methodu ile todos koleksiyonuna veri eklenebilecek. (Front-End Gereksinimleri 8. madde için)",
-      "complated": true,
-      "deleted": false,
+      "complated": "true",
+      "deleted": "false",
       "created_at": "2022-04-05T17:00:00Z",
       "updated_at": "2022-04-05T19:15:00Z"
     },
@@ -43,8 +43,8 @@
         1
       ],
       "description": "REST API üzerinde, DELETE methodu ile todos koleksiyonundan veri silinebilecek. (Front-End Gereksinimleri 9. madde için)",
-      "complated": true,
-      "deleted": false,
+      "complated": "true",
+      "deleted": "false",
       "created_at": "2022-03-05T18:15:00Z",
       "updated_at": "2022-03-05T20:30:00Z"
     },
@@ -55,8 +55,8 @@
         2
       ],
       "description": "Tüm kaynaklar GitHub üzerinde tutulacaktır.",
-      "complated": true,
-      "deleted": false,
+      "complated": "true",
+      "deleted": "false",
       "created_at": "2022-01-05T12:00:00Z",
       "updated_at": "2022-01-05T12:00:00Z",
       "_id": 11
@@ -68,8 +68,8 @@
         2
       ],
       "description": "Readme.md dosyasına uygulamanın çalıştırılması için gerekli tüm adımların yazılması gerekmektedir",
-      "complated": true,
-      "deleted": false,
+      "complated": "true",
+      "deleted": "false",
       "created_at": "2022-12-05T12:00:00Z",
       "updated_at": "2022-12-05T12:00:00Z",
       "_id": 12
@@ -81,8 +81,8 @@
         2
       ],
       "description": "React.js son versiyon kullanılarak geliştirme yapılacaktır",
-      "complated": true,
-      "deleted": false,
+      "complated": "true",
+      "deleted": "false",
       "created_at": "2022-12-05T12:00:00Z",
       "updated_at": "2022-12-05T12:00:00Z",
       "_id": 13
@@ -94,8 +94,8 @@
         2
       ],
       "description": "React.js içerisinde Javascript dili ile kodlama yapılacaktır (TypeScript kullanılmayacak)",
-      "complated": true,
-      "deleted": false,
+      "complated": "true",
+      "deleted": "false",
       "created_at": "2022-12-05T12:00:00Z",
       "updated_at": "2022-12-05T12:00:00Z"
     },
@@ -106,10 +106,324 @@
         2
       ],
       "description": "Ekteki resim baz alınarak bir arayüz tasarımı oluşturulacaktır.",
-      "complated": true,
-      "deleted": false,
+      "complated": "true",
+      "deleted": "true",
       "created_at": "2022-12-05T12:00:00Z",
       "updated_at": "2022-12-05T12:00:00Z"
+    },
+    {
+      "id": "832f",
+      "complated": "true"
+    },
+    {
+      "id": "c5b2"
+    },
+    {
+      "id": "fe7a"
+    },
+    {
+      "id": "5ee9",
+      "title": "sdfsdf",
+      "descriptions": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "6d41",
+      "title": "sdfsdf",
+      "descriptions": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "cf26",
+      "title": "sdfsdf",
+      "descriptions": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "eb2d",
+      "title": "",
+      "descriptions": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "71e8",
+      "title": "sdfgsdg",
+      "descriptions": "dfgdfg",
+      "tags": []
+    },
+    {
+      "id": "6f6f",
+      "title": "sdfsdf",
+      "descriptions": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "98c5",
+      "title": "",
+      "descriptions": "sdfsdfsdf",
+      "tags": []
+    },
+    {
+      "id": "c61b",
+      "title": "dfgdfg",
+      "descriptions": "",
+      "tags": []
+    },
+    {
+      "id": "4041",
+      "title": "dfgdfg",
+      "descriptions": "",
+      "tags": []
+    },
+    {
+      "id": "c479",
+      "title": "dfghfghfgh",
+      "descriptions": "",
+      "tags": []
+    },
+    {
+      "id": "ca00",
+      "title": "fghfgj",
+      "descriptions": "ghjghj",
+      "tags": []
+    },
+    {
+      "id": "8ad4",
+      "title": "dfghfgh",
+      "descriptions": "fghfgh",
+      "tags": []
+    },
+    {
+      "id": "79fc",
+      "title": "Furkan ",
+      "descriptions": "Zengin",
+      "tags": []
+    },
+    {
+      "id": "e9bd",
+      "title": "yuıkyuık",
+      "descriptions": "yuıyuı",
+      "tags": []
+    },
+    {
+      "id": "89a0",
+      "title": "fghfgh",
+      "descriptions": "fghfgh",
+      "tags": []
+    },
+    {
+      "id": "375d",
+      "title": "sdfsdf",
+      "descriptions": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "8140",
+      "title": "dfgdfg",
+      "descriptions": "dfgdfg",
+      "tags": []
+    },
+    {
+      "id": "1a3d",
+      "title": "fghfgh",
+      "descriptions": "fghfgh",
+      "tags": []
+    },
+    {
+      "id": "2062",
+      "title": "furkan",
+      "descriptions": "zengin",
+      "tags": []
+    },
+    {
+      "id": "af40",
+      "title": "sdfsdf",
+      "descriptions": "sdfsf",
+      "tags": []
+    },
+    {
+      "id": "2f1e",
+      "title": "sdfsf",
+      "descriptions": "sdfs",
+      "tags": []
+    },
+    {
+      "id": "cba9",
+      "title": "furkan",
+      "descriptions": "zengin",
+      "tags": []
+    },
+    {
+      "id": "0415",
+      "title": "fghfgh",
+      "descriptions": "fghfhg",
+      "tags": []
+    },
+    {
+      "id": "b9f3",
+      "title": "sdfsdf",
+      "descriptions": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "7cbb",
+      "title": "gdfdfg",
+      "descriptions": "dfgdfg",
+      "tags": []
+    },
+    {
+      "id": "4c60",
+      "title": "tyutyu",
+      "descriptions": "tyutyu",
+      "tags": []
+    },
+    {
+      "id": "a89c",
+      "title": "sdfsdf",
+      "descriptions": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "e6d3",
+      "title": "dfgdfg",
+      "descriptions": "dfgdfg",
+      "tags": []
+    },
+    {
+      "id": "ea3e",
+      "title": "",
+      "descriptions": "",
+      "tags": []
+    },
+    {
+      "id": "8f70",
+      "title": "asdasd",
+      "descriptions": "asdasd",
+      "tags": []
+    },
+    {
+      "id": "784b",
+      "title": "gcvyyghcv",
+      "descriptions": "tfctyc",
+      "tags": []
+    },
+    {
+      "id": "9f67",
+      "title": "asd",
+      "descriptions": "asdasd",
+      "tags": []
+    },
+    {
+      "id": "6d99",
+      "title": "asfasdf",
+      "descriptions": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "51a6",
+      "title": "sdfsdf",
+      "descriptions": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "501d",
+      "title": "sdfsdf",
+      "descriptions": "sdfsd",
+      "tags": []
+    },
+    {
+      "id": "86c7",
+      "title": "dfgdfg",
+      "descriptions": "dfgdfg",
+      "tags": []
+    },
+    {
+      "id": "0821",
+      "title": "asdasd",
+      "descriptions": "asdasd",
+      "tags": []
+    },
+    {
+      "id": "17b0",
+      "title": "Furkan ",
+      "descriptions": "Zengin",
+      "tags": []
+    },
+    {
+      "id": "8870",
+      "title": "sdfsdf",
+      "description": "sdfsdf",
+      "tags": []
+    },
+    {
+      "id": "48e4",
+      "title": "Furkan",
+      "description": "Zengin",
+      "tags": []
+    },
+    {
+      "id": "bf05",
+      "title": "aaaaaaaaaa",
+      "description": "vvvvvvvvvvvvvv",
+      "tags": []
+    },
+    {
+      "id": "8be4",
+      "title": "aaaaaaaaaaaa",
+      "description": "bbbbbbbbbbbb",
+      "tags": []
+    },
+    {
+      "id": "4f3f",
+      "title": "asfasf",
+      "description": "asfasfaf",
+      "tags": [],
+      "deleted": false,
+      "complated": false,
+      "created_at": "2024-04-26T22:41:18.903Z",
+      "updated_at": "2024-04-26T22:41:18.903Z"
+    },
+    {
+      "id": "c8e5",
+      "title": "yunus ",
+      "description": "genç",
+      "tags": [
+        "tag1"
+      ],
+      "deleted": false,
+      "complated": false,
+      "created_at": "2024-04-26T22:41:43.580Z",
+      "updated_at": "2024-04-26T22:41:43.580Z"
+    },
+    {
+      "id": "e2f2",
+      "title": "furkan",
+      "description": "ZENGİN",
+      "tags": [],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-26T22:43:25.221Z",
+      "updated_at": "2024-04-26T22:43:25.221Z"
+    },
+    {
+      "id": "99be",
+      "title": "sdfsdf",
+      "description": "sdfsdf",
+      "tags": [],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-26T22:43:55.588Z",
+      "updated_at": "2024-04-26T22:43:55.588Z"
+    },
+    {
+      "id": "a811",
+      "title": "asdasd",
+      "description": "asdasd",
+      "tags": [],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-26T22:49:55.279Z",
+      "updated_at": "2024-04-26T22:49:55.279Z"
     }
   ],
   "tags": [

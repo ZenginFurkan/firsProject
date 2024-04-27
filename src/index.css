@@ -159,9 +159,26 @@ code {
   text-decoration: line-through !important;
 }
 
-.btn-secondary {
+.drop-btn {
   background-color: #fff !important;
   color: blue !important;
-  border: 1px solid blue !important;
-  border-radius: 10px !important;
+}
+
+.drop-btn:hover {
+  background-color: #fff !important;
+  color: blue !important;
+}
+
+.drop-btn:focus {
+  background-color: #fff !important;
+  color: blue !important;
+}
+
+.drop-btn:active {
+  background-color: #fff !important;
+  color: blue !important;
+}
+
+.badge-text {
+  color: black !important;
 }

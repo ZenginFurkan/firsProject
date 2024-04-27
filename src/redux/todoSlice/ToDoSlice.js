@@ -17,20 +17,28 @@ export const fetchDeletedTodos = createAsyncThunk("todos/fetchDeletedTodos", asy
     return response.data;
 });
 
-export const fetchAllTodos = createAsyncThunk("todos/fetchAllTodos", async () => {
-    const params = { deleted: false };
-    const response = await api.get("/todos", params);
-    return response.data;
-});
+export const fetchAllTodos = createAsyncThunk(
+    "todos/fetchAllTodos",
+    async (params) => {
+        const { deleted = "false", ...otherParams } = params;
+        const response = await api.get("/todos", {
+            params: {
+                deleted,
+                ...otherParams,
+            },
+        });
+
+        return response.data;
+    }
+);
 
 export const addTodo = createAsyncThunk("todos/addTodo", async (todo) => {
     const response = await api.post("/todos", todo);
     return response.data;
 });
 
-export const deleteTodo = createAsyncThunk("todos/deleteTodo", async (todos) => {
-    console.log(todos)
-    const response = await api.patch(`/todos/${todos.id}`, todos);
+export const deleteTodo = createAsyncThunk("todos/deleteTodo", async (todo) => {
+    const response = await api.patch(`/todos/${todo.id}`, todo);
     return response.data;
 
 });
