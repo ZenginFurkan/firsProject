@@ -4,7 +4,7 @@
       "id": "5",
       "title": "Task 5",
       "tags": [
-        1
+        "Personel"
       ],
       "description": "todos objesi içerisinde aşağıdaki alanlar olmalıdır. \n _id (ObjectId), title (String), description (String), complated (Boolean), created_at (Date), updated_at (Date)",
       "deleted": "true",
@@ -16,7 +16,7 @@
       "id": "7",
       "title": "Task 7",
       "tags": [
-        1
+        "Personel"
       ],
       "description": "REST API üzerinde, GET methodu ile todos verileri çekilebilecek. (Front-End Gereksinimleri 7. madde için)",
       "complated": "true",
@@ -28,7 +28,7 @@
       "id": "8",
       "title": "Task 8",
       "tags": [
-        1
+        "Personel"
       ],
       "description": "REST API üzerinde, POST methodu ile todos koleksiyonuna veri eklenebilecek. (Front-End Gereksinimleri 8. madde için)",
       "complated": "true",
@@ -40,7 +40,7 @@
       "id": "9",
       "title": "Task 9",
       "tags": [
-        1
+        "Personel"
       ],
       "description": "REST API üzerinde, DELETE methodu ile todos koleksiyonundan veri silinebilecek. (Front-End Gereksinimleri 9. madde için)",
       "complated": "true",
@@ -52,7 +52,7 @@
       "id": "11",
       "title": "Task 11",
       "tags": [
-        2
+        "Personel"
       ],
       "description": "Tüm kaynaklar GitHub üzerinde tutulacaktır.",
       "complated": "true",
@@ -65,7 +65,7 @@
       "id": "12",
       "title": "Task 12",
       "tags": [
-        2
+        "Personel"
       ],
       "description": "Readme.md dosyasına uygulamanın çalıştırılması için gerekli tüm adımların yazılması gerekmektedir",
       "complated": "true",
@@ -78,7 +78,7 @@
       "id": "13",
       "title": "Task 13",
       "tags": [
-        2
+        "Personel"
       ],
       "description": "React.js son versiyon kullanılarak geliştirme yapılacaktır",
       "complated": "true",
@@ -91,7 +91,7 @@
       "id": "14",
       "title": "Task 14",
       "tags": [
-        2
+        "Personel"
       ],
       "description": "React.js içerisinde Javascript dili ile kodlama yapılacaktır (TypeScript kullanılmayacak)",
       "complated": "true",
@@ -103,7 +103,7 @@
       "id": "15",
       "title": "Task 15",
       "tags": [
-        2
+        "Personel"
       ],
       "description": "Ekteki resim baz alınarak bir arayüz tasarımı oluşturulacaktır.",
       "complated": "true",
@@ -112,274 +112,12 @@
       "updated_at": "2022-12-05T12:00:00Z"
     },
     {
-      "id": "832f",
-      "complated": "true"
-    },
-    {
-      "id": "c5b2"
-    },
-    {
-      "id": "fe7a"
-    },
-    {
-      "id": "5ee9",
-      "title": "sdfsdf",
-      "descriptions": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "6d41",
-      "title": "sdfsdf",
-      "descriptions": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "cf26",
-      "title": "sdfsdf",
-      "descriptions": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "eb2d",
-      "title": "",
-      "descriptions": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "71e8",
-      "title": "sdfgsdg",
-      "descriptions": "dfgdfg",
-      "tags": []
-    },
-    {
-      "id": "6f6f",
-      "title": "sdfsdf",
-      "descriptions": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "98c5",
-      "title": "",
-      "descriptions": "sdfsdfsdf",
-      "tags": []
-    },
-    {
-      "id": "c61b",
-      "title": "dfgdfg",
-      "descriptions": "",
-      "tags": []
-    },
-    {
-      "id": "4041",
-      "title": "dfgdfg",
-      "descriptions": "",
-      "tags": []
-    },
-    {
-      "id": "c479",
-      "title": "dfghfghfgh",
-      "descriptions": "",
-      "tags": []
-    },
-    {
-      "id": "ca00",
-      "title": "fghfgj",
-      "descriptions": "ghjghj",
-      "tags": []
-    },
-    {
-      "id": "8ad4",
-      "title": "dfghfgh",
-      "descriptions": "fghfgh",
-      "tags": []
-    },
-    {
-      "id": "79fc",
-      "title": "Furkan ",
-      "descriptions": "Zengin",
-      "tags": []
-    },
-    {
-      "id": "e9bd",
-      "title": "yuıkyuık",
-      "descriptions": "yuıyuı",
-      "tags": []
-    },
-    {
-      "id": "89a0",
-      "title": "fghfgh",
-      "descriptions": "fghfgh",
-      "tags": []
-    },
-    {
-      "id": "375d",
-      "title": "sdfsdf",
-      "descriptions": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "8140",
-      "title": "dfgdfg",
-      "descriptions": "dfgdfg",
-      "tags": []
-    },
-    {
-      "id": "1a3d",
-      "title": "fghfgh",
-      "descriptions": "fghfgh",
-      "tags": []
-    },
-    {
-      "id": "2062",
-      "title": "furkan",
-      "descriptions": "zengin",
-      "tags": []
-    },
-    {
-      "id": "af40",
-      "title": "sdfsdf",
-      "descriptions": "sdfsf",
-      "tags": []
-    },
-    {
-      "id": "2f1e",
-      "title": "sdfsf",
-      "descriptions": "sdfs",
-      "tags": []
-    },
-    {
-      "id": "cba9",
-      "title": "furkan",
-      "descriptions": "zengin",
-      "tags": []
-    },
-    {
-      "id": "0415",
-      "title": "fghfgh",
-      "descriptions": "fghfhg",
-      "tags": []
-    },
-    {
-      "id": "b9f3",
-      "title": "sdfsdf",
-      "descriptions": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "7cbb",
-      "title": "gdfdfg",
-      "descriptions": "dfgdfg",
-      "tags": []
-    },
-    {
-      "id": "4c60",
-      "title": "tyutyu",
-      "descriptions": "tyutyu",
-      "tags": []
-    },
-    {
-      "id": "a89c",
-      "title": "sdfsdf",
-      "descriptions": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "e6d3",
-      "title": "dfgdfg",
-      "descriptions": "dfgdfg",
-      "tags": []
-    },
-    {
-      "id": "ea3e",
-      "title": "",
-      "descriptions": "",
-      "tags": []
-    },
-    {
-      "id": "8f70",
-      "title": "asdasd",
-      "descriptions": "asdasd",
-      "tags": []
-    },
-    {
-      "id": "784b",
-      "title": "gcvyyghcv",
-      "descriptions": "tfctyc",
-      "tags": []
-    },
-    {
-      "id": "9f67",
-      "title": "asd",
-      "descriptions": "asdasd",
-      "tags": []
-    },
-    {
-      "id": "6d99",
-      "title": "asfasdf",
-      "descriptions": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "51a6",
-      "title": "sdfsdf",
-      "descriptions": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "501d",
-      "title": "sdfsdf",
-      "descriptions": "sdfsd",
-      "tags": []
-    },
-    {
-      "id": "86c7",
-      "title": "dfgdfg",
-      "descriptions": "dfgdfg",
-      "tags": []
-    },
-    {
-      "id": "0821",
-      "title": "asdasd",
-      "descriptions": "asdasd",
-      "tags": []
-    },
-    {
-      "id": "17b0",
-      "title": "Furkan ",
-      "descriptions": "Zengin",
-      "tags": []
-    },
-    {
-      "id": "8870",
-      "title": "sdfsdf",
-      "description": "sdfsdf",
-      "tags": []
-    },
-    {
-      "id": "48e4",
-      "title": "Furkan",
-      "description": "Zengin",
-      "tags": []
-    },
-    {
-      "id": "bf05",
-      "title": "aaaaaaaaaa",
-      "description": "vvvvvvvvvvvvvv",
-      "tags": []
-    },
-    {
-      "id": "8be4",
-      "title": "aaaaaaaaaaaa",
-      "description": "bbbbbbbbbbbb",
-      "tags": []
-    },
-    {
       "id": "4f3f",
       "title": "asfasf",
       "description": "asfasfaf",
       "tags": [],
-      "deleted": false,
-      "complated": false,
+      "deleted": "false",
+      "complated": "true",
       "created_at": "2024-04-26T22:41:18.903Z",
       "updated_at": "2024-04-26T22:41:18.903Z"
     },
@@ -388,10 +126,10 @@
       "title": "yunus ",
       "description": "genç",
       "tags": [
-        "tag1"
+        "Urgent"
       ],
-      "deleted": false,
-      "complated": false,
+      "deleted": "true",
+      "complated": "true",
       "created_at": "2024-04-26T22:41:43.580Z",
       "updated_at": "2024-04-26T22:41:43.580Z"
     },
@@ -400,8 +138,8 @@
       "title": "furkan",
       "description": "ZENGİN",
       "tags": [],
-      "deleted": "false",
-      "complated": "false",
+      "deleted": "true",
+      "complated": "true",
       "created_at": "2024-04-26T22:43:25.221Z",
       "updated_at": "2024-04-26T22:43:25.221Z"
     },
@@ -424,17 +162,196 @@
       "complated": "false",
       "created_at": "2024-04-26T22:49:55.279Z",
       "updated_at": "2024-04-26T22:49:55.279Z"
+    },
+    {
+      "id": "4203",
+      "title": "Task 20",
+      "description": "task 20",
+      "tags": [
+        "Personel"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-28T15:51:42.125Z",
+      "updated_at": "2024-04-28T15:51:42.125Z"
+    },
+    {
+      "id": "d3fb",
+      "title": "sdad",
+      "description": "asdad",
+      "tags": [],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-28T15:52:03.369Z",
+      "updated_at": "2024-04-28T15:52:03.369Z"
+    },
+    {
+      "id": "6ae4",
+      "title": "aaaaa",
+      "description": "bbbbb",
+      "tags": [
+        "Personel"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-28T15:52:13.019Z",
+      "updated_at": "2024-04-28T15:52:13.019Z"
+    },
+    {
+      "id": "bbb1",
+      "title": "deneme ",
+      "description": "deneme",
+      "tags": [
+        "Personel"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-28T15:52:40.363Z",
+      "updated_at": "2024-04-28T15:52:40.363Z"
+    },
+    {
+      "id": "02c6",
+      "title": "eeee",
+      "description": "aaaa",
+      "tags": [
+        "Personel"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-28T16:04:34.787Z",
+      "updated_at": "2024-04-28T16:04:34.787Z"
+    },
+    {
+      "id": "fa5a",
+      "title": "aaaaaaa",
+      "description": "zzzzzz",
+      "tags": [
+        "Personel"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-28T16:04:54.012Z",
+      "updated_at": "2024-04-28T16:04:54.012Z"
+    },
+    {
+      "id": "d793",
+      "title": "Task 7",
+      "description": "task 7",
+      "tags": [
+        "Personel"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-28T16:14:39.241Z",
+      "updated_at": "2024-04-28T16:14:39.241Z"
+    },
+    {
+      "id": "3dce",
+      "title": "furkan",
+      "description": "zengin",
+      "tags": [
+        "Personel"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-29T20:04:58.683Z",
+      "updated_at": "2024-04-29T20:04:58.683Z"
+    },
+    {
+      "id": "e124",
+      "title": "task 7 ",
+      "description": "aaa",
+      "tags": [
+        "Personel"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-29T20:12:01.709Z",
+      "updated_at": "2024-04-29T20:12:01.709Z"
+    },
+    {
+      "id": "d8ee",
+      "title": "hekim ",
+      "description": "sikim ",
+      "tags": [
+        "Project",
+        "Urgent"
+      ],
+      "deleted": "true",
+      "complated": "false",
+      "created_at": "2024-04-29T20:13:53.943Z",
+      "updated_at": "2024-04-29T20:13:53.943Z"
+    },
+    {
+      "id": "7e91",
+      "title": "Task1",
+      "description": "111",
+      "tags": [
+        "Project"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-30T15:13:13.295Z",
+      "updated_at": "2024-04-30T15:13:13.295Z"
+    },
+    {
+      "id": "054a",
+      "title": "Task2",
+      "description": "2222",
+      "tags": [
+        "List"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-04-30T15:13:54.532Z",
+      "updated_at": "2024-04-30T15:13:54.532Z"
+    },
+    {
+      "id": "ddd2",
+      "title": "Neslihan ",
+      "description": "Perihan ",
+      "tags": [
+        "Urgent",
+        "List"
+      ],
+      "deleted": "true",
+      "complated": "true",
+      "created_at": "2024-05-01T11:38:15.344Z",
+      "updated_at": "2024-05-01T11:38:15.344Z"
+    },
+    {
+      "id": "e728",
+      "title": "Task 1 ",
+      "description": "1111",
+      "tags": [
+        "List",
+        "Personal"
+      ],
+      "deleted": "false",
+      "complated": "false",
+      "created_at": "2024-05-02T20:58:09.718Z",
+      "updated_at": "2024-05-02T20:58:09.718Z"
     }
   ],
   "tags": [
     {
       "value": 1,
-      "label": "Api",
+      "label": "Personel",
       "id": "7b36"
     },
     {
       "value": 2,
-      "label": "Frontend",
+      "label": "Urgent",
+      "id": "d15e"
+    },
+    {
+      "value": 2,
+      "label": "Project",
+      "id": "d15e"
+    },
+    {
+      "value": 2,
+      "label": "List",
       "id": "d15e"
     }
   ]
